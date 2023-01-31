@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Jakub Król",
+		"year": 2009,
+		"position": "Obrońca",
+		"rating": 81.88,
+		"category": "Trampkarz",
+		"club": "Mazuria"
+	},
+	{
+		"name": "Bartosz Bondziul",
+		"year": 2009,
+		"position": "Nap/Pom",
+		"rating": 81.09,
+		"category": "Junior A1",
+		"club": "Mazuria"
+	},
+	{
+		"name": "Marcin Milewski",
+		"year": 2009,
+		"position": "Skrzydłowy",
+		"rating": 77.56,
+		"category": "Trampkarz",
+		"club": "Mazuria"
+	},
+	{
+		"name": "Krystian Tymoszczuk",
+		"year": 2009,
+		"position": "Obr/Pom",
+		"rating": 74.93,
+		"category": "Junior A1",
+		"club": "Mazuria"
+	},
+	{
+		"name": "Fabian Wojtkowski",
+		"year": 2009,
+		"position": "Nap/Skrzydł",
+		"rating": 71.02,
+		"category": "Trampkarz",
+		"club": "Mazuria"
+	}
+]

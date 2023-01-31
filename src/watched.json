@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Szymon Kopyść",
+		"year": 2010,
+		"position": "Napastnik",
+		"rating": 62.42,
+		"category": "Junior A1",
+		"club": "MKS Mrągowo"
+	},
+	{
+		"name": "Jakub Król",
+		"year": 2009,
+		"position": "Obrońca",
+		"rating": 81.88,
+		"category": "Trampkarz",
+		"club": "Mazuria"
+	},
+	{
+		"name": "Mikołaj Rosłoń",
+		"year": 2009,
+		"position": "Obrońca",
+		"rating": 70.25,
+		"category": "Trampkarz",
+		"club": "GKS Chynów"
+	},
+	{
+		"name": "Marcin Milewski",
+		"year": 2009,
+		"position": "Skrzydłowy",
+		"rating": 77.56,
+		"category": "Trampkarz",
+		"club": "Mazuria"
+	},
+	{
+		"name": "Fabian Wojtkowski",
+		"year": 2009,
+		"position": "Nap/Skrzydł",
+		"rating": 71.02,
+		"category": "Trampkarz",
+		"club": "Mazuria"
+	},
+	{
+		"name": "Antek Biczyk",
+		"year": 2010,
+		"position": "Pomocnik",
+		"rating": 67.19,
+		"category": "Trampkarz",
+		"club": "Mazuria"
+	}
+]

@@ -1,0 +1,72 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+h2 {
+	color: #6f6f6e;
+}
+
+.wrapper {
+	position: relative;
+	width: 90vw;
+}
+
+.login-container {
+	width: 50% !important;
+}
+
+@media (max-width: 1320px) {
+	body {
+		overflow: auto;
+	}
+
+	.wrapper {
+		width: 97vw;
+	}
+}
+
+@media (max-width: 730px) {
+	.login-container {
+		width: 90% !important;
+	}
+
+	.burger-menu-active {
+		height: 550px !important;
+		top: 282.5px !important;
+	}
+}
+@media (max-width: 425px) {
+	table {
+		font-size: 10px;
+	}
+}
+
+/* .navigation {
+	align-items: center;
+	padding: 10px !important;
+	background-color: #2d5a2d;
+}
+
+.navigation a {
+	color: white;
+}
+
+.nav-link:hover{
+  color: white !important;
+}
+
+.nav-link.active {
+	background-color: white !important;
+	color: #2d5a2d !important;
+} */
