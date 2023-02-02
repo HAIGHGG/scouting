@@ -15,6 +15,7 @@ export const StyledCard = styled.div`
 			text-align: center;
 			width: 100%;
 			margin: 5px;
+			padding: 0 20px;
 		}
 	}
 
@@ -50,13 +51,12 @@ export const StyledCard = styled.div`
 	}
 	.content {
 		width: 100%;
-		height: 100%;
 		display: none;
 	}
 	.active-content {
 		display: block;
 		border-radius: 15px;
-		padding: 20px 10px;
+		padding: 10px 10px 1px 10px;
 		background-color: white;
 	}
 	.place-holder {
@@ -80,6 +80,11 @@ export const StyledCard = styled.div`
 	@media (max-width: 730px) {
 		.content {
 			height: auto;
+		}
+		div {
+			h3 {
+				padding: 0;
+			}
 		}
 	}
 

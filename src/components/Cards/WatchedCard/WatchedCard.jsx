@@ -20,10 +20,10 @@ const WatchedCard = ({ data }) => {
 					<h3>WYDARZENIA</h3>
 				</div>
 			</div>
-			<div className={toggleState === 1 ? 'content  active-content' : 'content'}>
+			<div className={toggleState === 1 ? 'content  active-content' : 'content'} style={{ height: '340px' }}>
 				<WatchedTable data={data} />
 			</div>
-			<div className={toggleState === 2 ? 'content  active-content' : 'content'}>
+			<div className={toggleState === 2 ? 'content  active-content' : 'content'} style={{ height: '340px' }}>
 				<p className='place-holder'>WYDARZENIA</p>
 			</div>
 		</StyledCard>

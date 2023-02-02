@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const LayoutHome = styled.div`
 	height: 100vh;
-	padding: 75px 100px 75px 150px;
+	padding: 50px 100px 50px 150px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
@@ -24,7 +24,10 @@ export const LayoutHome = styled.div`
 	}
 
 	@media (max-height: 820px) {
-		padding: 50px 100px 45px 150px;
+		padding: 10px 100px 5px 150px;
+		h2{
+			font-size: 24px;
+		}
 	}
 
 	@media (max-width: 1250px) {
@@ -35,6 +38,7 @@ export const LayoutHome = styled.div`
 			'first'
 			'second'
 			'third';
+		padding-top: 50px;
 	}
 
 	@media (max-width: 730px) {

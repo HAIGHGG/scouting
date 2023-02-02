@@ -29,19 +29,19 @@ const TopRatedCard = ({ data }) => {
 					<h3>ORLIKI</h3>
 				</div>
 			</div>
-			<div className={toggleState === 1 ? 'content  active-content' : 'content'}>
+			<div className={toggleState === 1 ? 'content  active-content' : 'content'} style={{ height: '265px' }}>
 				<p className='place-holder'>JUNIORZY STARSI</p>
 			</div>
-			<div className={toggleState === 2 ? 'content  active-content' : 'content'}>
+			<div className={toggleState === 2 ? 'content  active-content' : 'content'} style={{ height: '265px' }}>
 				<p className='place-holder'>JUNIORZY MŁODSI</p>
 			</div>
-			<div className={toggleState === 3 ? 'content  active-content' : 'content'}>
+			<div className={toggleState === 3 ? 'content  active-content' : 'content'} style={{ height: '265px' }}>
 				<TopRatedTable data={data} />
 			</div>
-			<div className={toggleState === 4 ? 'content  active-content' : 'content'}>
+			<div className={toggleState === 4 ? 'content  active-content' : 'content'} style={{ height: '265px' }}>
 				<p className='place-holder'>MŁODZIKI</p>
 			</div>
-			<div className={toggleState === 5 ? 'content  active-content' : 'content'}>
+			<div className={toggleState === 5 ? 'content  active-content' : 'content'} style={{ height: '265px' }}>
 				<p className='place-holder'>ORLIKI</p>
 			</div>
 		</StyledCard>

@@ -21,7 +21,7 @@ const BestElevenCard = () => {
 			</div>
 			<div className={toggleState === 1 ? 'content  active-content' : 'content'}>
 				<div className='d-flex flex-column'>
-					<div className='filter'>
+					<div className='filter' style={{marginTop: "63px"}}>
 						<span>KATEGORIA WIEKOWA: </span>
 						<select>
 							<option value='juniorzyStarsi'>Juniorzy starsi</option>
