@@ -1,35 +1,23 @@
 import React from 'react'
-import { Table } from '../Table.styles'
+import { DatatableWrapper, TableBody, TableHeader } from 'react-bs-datatable'
+import { Table } from 'react-bootstrap'
+
+const headers = [
+	{ title: 'IMIĘ I NAZWISKO', prop: 'name' },
+	{ title: 'POZYCJA', prop: 'position' },
+	{ title: 'OCENA', prop: 'rating' },
+	{ title: 'KATEGORIA', prop: 'category' },
+	{ title: 'KLUB', prop: 'club' },
+]
 
 const WatchedTable = ({ data }) => {
-
 	return (
-		<Table>
-			<tbody>
-				<tr>
-					<th></th>
-					<th>IMIĘ I NAZWISKO</th>
-					<th>POZYCJA</th>
-					<th>OCENA</th>
-					<th>KATEGORIA</th>
-					<th>KLUB</th>
-				</tr>
-				{data.map(player => {
-					return (
-						<tr key={player.name}>
-							<td>
-								<input type='checkbox' />
-							</td>
-							<td>{player.name}</td>
-							<td>{player.position}</td>
-							<td>{player.rating}</td>
-							<td>{player.category}</td>
-							<td>{player.club}</td>
-						</tr>
-					)
-				})}
-			</tbody>
-		</Table>
+		<DatatableWrapper body={data} headers={headers}>
+			<Table>
+				<TableHeader />
+				<TableBody />
+			</Table>
+		</DatatableWrapper>
 	)
 }
 
