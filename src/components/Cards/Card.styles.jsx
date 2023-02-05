@@ -20,7 +20,7 @@ export const StyledCard = styled.div`
 	}
 
 	img {
-		margin-top: 25px;
+		margin: 25px 0;
 	}
 
 	.tab {
@@ -77,6 +77,64 @@ export const StyledCard = styled.div`
 		}
 	}
 
+	.pitch {
+		position: relative;
+		color: white;
+		font-size: 54px;
+		.shirt-number {
+			color: #2d5a2d;
+			font-size: 16px;
+			font-weight: bold;
+			position: absolute;
+		}
+		.shirt {
+			position: absolute;
+			svg {
+				filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+			}
+		}
+		.shirt-1 {
+			bottom: 60px;
+		}
+		.shirt-2 {
+			bottom: 150px;
+			left: 40px;
+		}
+		.shirt-3 {
+			bottom: 130px;
+			left: 110px;
+		}
+		.shirt-4 {
+			bottom: 130px;
+			right: 110px;
+		}
+		.shirt-5 {
+			bottom: 150px;
+			right: 40px;
+		}
+		.shirt-6 {
+		}
+		.shirt-7 {
+			bottom: 260px;
+			left: 70px;
+		}
+		.shirt-8 {
+			bottom: 260px;
+			right: 70px;
+		}
+		.shirt-9 {
+			bottom: 340px;
+			left: 100px;
+		}
+		.shirt-10 {
+			bottom: 340px;
+			right: 100px;
+		}
+		.shirt-11 {
+			bottom: 380px;
+		}
+	}
+
 	@media (max-width: 730px) {
 		.content {
 			height: auto;
@@ -92,8 +150,8 @@ export const StyledCard = styled.div`
 		width: 370px;
 		margin-bottom: 10px;
 		img {
-			width: 300px;
-			height: 300px;
+			width: 350px;
+			height: 450px;
 		}
 		div {
 			h3 {
