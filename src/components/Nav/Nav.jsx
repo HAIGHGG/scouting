@@ -10,6 +10,11 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 const Nav = () => {
 	const [burgerMenuOpen, setBurgerMenuOpen] = useState(false)
 
+	const handleLogout = () => {
+		sessionStorage.removeItem('token')
+		window.location.reload(true)
+	}
+
 	return (
 		<Navbar className={burgerMenuOpen && 'burger-menu-active'}>
 			<div className='burger-menu'>
@@ -54,7 +59,7 @@ const Nav = () => {
 				</NavLink>
 			</section>
 			<NavLink>
-				<BiLogOutCircle />
+				<BiLogOutCircle onClick={handleLogout} />
 			</NavLink>
 		</Navbar>
 	)
